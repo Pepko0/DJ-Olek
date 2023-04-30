@@ -6,3 +6,18 @@
     font-size: 35px;
 
 }
+
+.mainHeader {
+    background: black;
+    height: 70px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    top:0;
+    margin-bottom: 10px;
+    z-index: 999;
+}

@@ -9,3 +9,19 @@
     display: block;
     margin-left: 20px;
 }
+
+
+.navigation__contact {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.navigation__link--contact{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__link--contact:hover {
+    color: teal;
+}

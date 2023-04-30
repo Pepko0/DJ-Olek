@@ -17,7 +17,5 @@
     align-items: center;
     position: fixed;
     width:100%;
-    top:0;
-    margin-bottom: 10px;
-    z-index: 999;
+    margin-bottom: 30px;
 }

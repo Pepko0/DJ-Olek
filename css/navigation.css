@@ -1,0 +1,11 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.navigation__link {
+    color: white;
+    display: block;
+    margin-left: 20px;
+}

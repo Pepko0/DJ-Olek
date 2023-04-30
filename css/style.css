@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.mainHeader {
+    background: black;
+    height: 70px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    top:0;
+    margin-bottom: 10px;
+    z-index: 999;
+}
+
+.header__logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.photo {
+    max-width: 1400px;;
+    height: 627px;;
+    margin: 0 auto;
+    resize: both;
+    overflow: auto;
+    background-image: url("../images/olek.bmp");
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.page {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* background: #eee; */
+}
+
+.photo__title {
+    color: white;
+    font-size: 50px;
+}
+
+.body{
+    background-image: url("../images/backgroundImage.png");
+    font-family: 'Lato', sans-serif;
+}
+
+
+.photo__omnie {
+    width:466px;
+    height:300px;
+}
+
+.photo__omnie:hover {
+    scale: calc(1,5);
+}

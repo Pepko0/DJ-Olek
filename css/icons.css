@@ -1,0 +1,32 @@
+.icon__instagram{
+    width: 100px;
+    height: 100px;
+    fill: currentColor;
+    color: white;    
+}
+
+.icon__instagram:hover{
+    color: #d551ac;
+}
+
+.icon__fb{
+    width: 100px;
+    height: 100px;
+    fill: currentColor;
+    color: white; 
+}
+
+.icon__fb:hover{
+    color: #3b5998;
+}
+
+.icon__linkedine {
+    width: 100px;
+    height: 100px;
+    fill: currentColor;
+    color: white;
+}
+
+.icon__linkedine:hover {
+    color: #0e76a8;
+}

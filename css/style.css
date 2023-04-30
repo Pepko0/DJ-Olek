@@ -51,9 +51,13 @@ html {
 }
 
 @media (max-width: 767px) {
+    .photo {
+        height: 350px;
+    }
+    
     .photo__omnie {
         width: 310px;
-        /* margin: 0 auto; */
+       
     }
 }
 

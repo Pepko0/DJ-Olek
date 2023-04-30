@@ -35,3 +35,19 @@ border-radius: 28%;
 .icon__linkedine:hover {
     color: #0e76a8;
 }
+
+@media(max-width: 767px) {
+    .icon__fb{
+        width: 65px;
+        height: 65px;
+    }
+    .icon__linkedine {
+        width: 65px;
+        height: 65px;
+    }
+    .icon__instagram{
+        width: 65px;
+        height: 65px;
+    }
+
+}

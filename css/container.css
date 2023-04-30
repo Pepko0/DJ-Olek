@@ -59,10 +59,6 @@
 
 
 @media (max-width: 767px) {
-    /* .photo__omnie { 
-        width:446px;
-        height:300px;
-    } */
 
     .container--left{
         grid-template-columns: 1fr;

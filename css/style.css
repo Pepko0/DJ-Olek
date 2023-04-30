@@ -26,6 +26,8 @@ html {
     background-position: center;
 }
 
+
+
 .page {
     max-width: 1400px;
     margin: 0 auto;
@@ -45,8 +47,14 @@ html {
 
 
 .photo__omnie {
-    width:466px;
-    height:300px;
+    width: 490px;
+}
+
+@media (max-width: 767px) {
+    .photo__omnie {
+        width: 310px;
+        /* margin: 0 auto; */
+    }
 }
 
 .photo__omnie:hover {

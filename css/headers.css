@@ -7,22 +7,46 @@
 
 }
 
-.mainHeader {
-    background: black;
+
+
+.mobileHeader {
+    background: rgb(22, 24, 29);
     height: 70px;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width:100%;
-    margin-bottom: 30px;
 }
+
+
+
+@media (min-width: 768px) {
+    .mobileHeader{
+        display: none;
+    }
+    .mainHeader {
+        background: black;
+        height: 70px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width:100%;
+        margin-bottom: 30px;
+    }
+
+
+}
+
 
 
 @media (max-width: 767px) {
     .header--center {
         font-size: 30px;
+    }
+
+    .mainHeader {
+        display: none;
     }
 }

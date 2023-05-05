@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Montserrat:wght@200&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
     <title>DJ - Olek!</title>
+    <script defer src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/container.css">
@@ -21,12 +22,12 @@
 
 <body class="body">
 
-    <header class="mainHeader">
+    <header class="mainHeader mobileHeader js-header">
         <img class="header__logo" src="images/DJ OLEK - B&W LOGO JPG (1).jpg">
         <div class="navigation">
-            <a class="navigation__link">O mnie</a>
+            <a class="navigation__link" href="#omnie">O mnie</a>
             <a class="navigation__link">Kontakt</a>
-            <a class="navigation__link">Media</a>
+            <a class="navigation__link" href="#socialmedia">Media</a>
         </div>
         <div class="navigation__contact">
             <a class="navigation__link--contact" title="Napisz mail do DJ-Olek" href="mailto:dj.olek.pac@gmail.com">dj.olek.pac@gmail.com</a>
@@ -34,6 +35,17 @@
         </div>
     </header>
 
+    <header class="mobileHeader">
+        <img class="header__logo" src="images/DJ OLEK - B&W LOGO JPG (1).jpg">
+        <select class="" id="my-dropdown" onchange="window.location.href=this.value">
+          <option value="">Wybierz sekcję</option>
+          <option value="#omnie">O mnie</option>
+          <option value="#socialmedia">Social Media</option>
+          <option value="#section3">Sekcja 3</option>
+        </select>
+        
+
+    </header>
  
 
         <div class="photo">
@@ -41,9 +53,9 @@
         </div>
        
         <div class="page">
-        <div class="container--left">
+        <div class="container--left" id="omnie">
             <div class="container__item"><img class="photo__omnie" src="images/omnie.JPG"></div>
-            <div class="container__item">
+            <div class="container__item" >
                 <h2 class="container__header">O mnie!</h2>
                 <p class="container__text">Pierwsze imprezy już zacząłem grać w 2018 roku od małych przyjęć czy
                     potańcówek. Z czasem zrozumiałem
@@ -65,7 +77,7 @@
         </div>
     </div>
 
-    <div class="container--center">
+    <div class="container--center" id="socialmedia">
         <h2 class="header--center">Odwiedź mnie w Social Mediach!</h2>
         <div class="container--social">
             <a class="container__link" href="https://www.instagram.com/dj.olek/" target="_blank"

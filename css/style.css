@@ -2,11 +2,10 @@ html {
     box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
+*, ::after, ::before {
     box-sizing: inherit;
 }
+
 
 
 
@@ -47,20 +46,12 @@ html {
 
 
 .photo__omnie {
-    width: 490px;
+    width: 100%;
+    padding: 10px;
 }
 
 @media (max-width: 767px) {
     .photo {
         height: 350px;
     }
-    
-    .photo__omnie {
-        width: 310px;
-       
-    }
-}
-
-.photo__omnie:hover {
-    scale: calc(1,5);
 }

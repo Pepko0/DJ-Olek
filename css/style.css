@@ -50,8 +50,19 @@ html {
     padding: 10px;
 }
 
+.photo__together {
+    width: 100%;
+    padding: 10px;
+}
+
 @media (max-width: 767px) {
     .photo {
         height: 350px;
     }
+
+    .photo__together {
+        width: 75%;
+        margin: 0 auto;
+    }
+
 }

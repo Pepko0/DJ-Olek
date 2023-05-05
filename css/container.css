@@ -24,6 +24,16 @@
     scroll-margin-top: 75px;
 }
 
+.container--equal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.container__page--center{
+    background: #eee;
+}
+
 .container--social {
     display: flex;
     padding:10px;
@@ -53,6 +63,13 @@
     text-align: left;
     text-decoration: underline;
     font-size: 30px;
+}
+
+.container__header--center {
+    color: teal;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
 }
 
 .container__text {

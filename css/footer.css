@@ -36,7 +36,7 @@
     font-size: 35px;
     color: white;
     text-align: center;
-    border-bottom: 0.5px solid;
+    border-bottom: 1px #b08f53 solid;
 }
 
 .footer__contactHeaader--smaller {
@@ -63,7 +63,7 @@
 }
 
 .footer__link--contact:hover {
-    color: #baab8f;
+    color: #b08f53;  
 }
 
 @media(max-width: 767px) {

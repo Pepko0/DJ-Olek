@@ -61,14 +61,14 @@
 }
 
 .container__header{
-    color: #baab8f;
+    color:#b08f53;
     text-align: left;
     text-decoration: underline;
     font-size: 30px;
 }
 
 .container__header--center {
-    color: teal;
+    color: #b08f53;
     text-align: center;
     text-decoration: underline;
     font-size: 35px;

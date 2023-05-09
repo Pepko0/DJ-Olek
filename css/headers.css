@@ -1,7 +1,7 @@
 .header--center {
     color:white;
     text-align: center;
-    border-bottom: 1px solid;
+    border-bottom: 1px #b08f53 solid;
     padding:10px;
     font-size: 35px;
 
@@ -10,11 +10,10 @@
 
 
 .mobileHeader {
-    background: rgb(22, 24, 29);
-    /* height: 70px;
-    padding: 10px; */
+    background: black;
     position: fixed;
     width:100%;
+    border-bottom: 2px #b08f53 solid;
 }
 
 .mobileHeader__buttons {
@@ -26,7 +25,7 @@
 
 .link__mobileHeader{
     color: white;
-    background: #414141;
+    background: #4141417a;
     max-width: 100%;
 }
 
@@ -49,6 +48,7 @@
         align-items: center;
         position: fixed;
         width:100%;
+        border-bottom: 2px #b08f53 solid;
     }
 }
 

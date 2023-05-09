@@ -11,7 +11,7 @@
 }
 
 .navigation__link:hover {
-    color: #baab8f;  
+    color: #b08f53;  
 }
 
 .navigation__contact {
@@ -26,16 +26,17 @@
 }
 
 .navigation__link--contact:hover {
-    color: #baab8f; 
+    color: #b08f53;  
 }
 
 .navigation__mobileLink {
     color: white;
     display: block;
     padding:10px;
-    border-bottom: solid 1px;
+    text-decoration: none;
+    border-top: solid #b08f53 1px;
 }
 
 .navigation__mobileLink:hover {
-    background: #727272;
+    background: #7e7e7e;
 }

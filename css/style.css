@@ -39,7 +39,8 @@ html {
 }
 
 .body {
-    background-image: url("../images/backgroundImage.png");
+    /* background: black; */
+    background-image: url("../images/background.png");
     font-family: 'Lato', sans-serif;
     line-height: 1.40;
 }

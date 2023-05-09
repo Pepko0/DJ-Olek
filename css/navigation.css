@@ -4,11 +4,15 @@
 }
 
 .navigation__link {
-    color: #baab8f;
+    color: white;
     display: block;
     margin-left: 20px;
+    text-decoration: none;
 }
 
+.navigation__link:hover {
+    color: #baab8f;  
+}
 
 .navigation__contact {
     text-align: right;
@@ -17,12 +21,12 @@
 
 .navigation__link--contact{
     margin-right: 20px;
-    color: #baab8f;
+    color: white;
     text-decoration: none;
 }
 
 .navigation__link--contact:hover {
-    color: teal;
+    color: #baab8f; 
 }
 
 .navigation__mobileLink {

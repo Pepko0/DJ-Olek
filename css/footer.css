@@ -7,7 +7,7 @@
 .footer__container {
     max-width: 1400px;
     margin: 0 auto;
-    border: solid white 1px;
+    /* border: solid white 1px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
@@ -31,7 +31,13 @@
     text-align: center;
 }
 
-.footer__linkContact {
+.footer__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__link--contact {
     display: grid;
     grid-template-columns: 1fr;
     padding: 10px;
@@ -39,4 +45,5 @@
     text-decoration: none;
     color: white;
     font-size: 25px;
+    margin: 0 20px;
 }

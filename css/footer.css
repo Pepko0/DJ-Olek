@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    background: black;
+
+}
+
+.footer__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: solid white 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.footer__contact {
+    padding: 10px;
+
+}
+
+.footer__contactHeaader {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.footer__contactHeaader--smaller {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.footer__linkContact {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}

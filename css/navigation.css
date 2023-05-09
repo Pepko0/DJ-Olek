@@ -24,3 +24,12 @@
 .navigation__link--contact:hover {
     color: teal;
 }
+
+.navigation__mobileLink {
+    color: white;
+    display: block;
+    padding:10px;
+    border-bottom: solid 1px;
+}
+
+..navigation__mobileLink

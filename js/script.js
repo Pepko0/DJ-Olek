@@ -10,18 +10,40 @@
 
   }
 
-  const hiddenMobileHeader = () => {
+  const hiddeAboutMeHeader = () => {
     const mobileLink = document.querySelector(".js-mobileLink")
-    const headerMobile = document.querySelector(".js-mobileHeader")
+    const headerMe = document.querySelector(".js-mobileHeader")
 
     mobileLink.addEventListener("click", () => {
-      headerMobile.classList.add("disable");
-    })
+      headerMe.classList.add("disable");
+    })  
   }
 
-  const init = () => {
+  const hiddeContactHeader = () => {
+    const headerContact = document.querySelector(".js-mobileLink1")
+    const contact = document.querySelector(".js-mobileHeader")
 
-    hiddenMobileHeader();
+    headerContact.addEventListener("click", () => {
+      contact.classList.add("disable");
+    })  
+  }
+  
+  const hideMediaHeader = () => {
+    const headerMobile = document.querySelector(".js-mobileLink2");
+    const mobile = document.querySelector(".js-mobileHeader");
+  
+    headerMobile.addEventListener("click", () => {
+      mobile.classList.add("disable");
+    })  
+
+  
+  }
+  
+  
+  const init = () => {
+    hideMediaHeader();
+    hiddeContactHeader();
+    hiddeAboutMeHeader();
     toggleMobileHeader(); 
 
 

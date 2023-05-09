@@ -26,8 +26,6 @@
 
 .link__mobileHeader{
     color: white;
-    /* display: grid; 
-    grid-template-columns: 1fr; */
     background: #414141;
     max-width: 100%;
 }

@@ -47,3 +47,7 @@
     font-size: 25px;
     margin: 0 20px;
 }
+
+.footer__link--contact:hover {
+    color: #baab8f;
+}

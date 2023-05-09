@@ -18,6 +18,20 @@
 
 }
 
+.footer__image{
+    align-items: center;
+}
+
+.footer__logo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 .footer__contactHeaader {
     font-size: 35px;
     color: white;
@@ -50,4 +64,16 @@
 
 .footer__link--contact:hover {
     color: #baab8f;
+}
+
+@media(max-width: 767px) {
+    .footer__container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer__logo {
+        width:50%;
+        margin-left: 25%;
+    }
+
 }

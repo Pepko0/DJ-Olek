@@ -10,7 +10,7 @@
 
 
 .mobileHeader {
-    background: black;
+    background:black;
     position: fixed;
     width:100%;
     border-bottom: 2px #b08f53 solid;
@@ -48,7 +48,7 @@
         align-items: center;
         position: fixed;
         width:100%;
-        border-bottom: 2px #b08f53 solid;
+        border-bottom: 2px white solid;
     }
 }
 

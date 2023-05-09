@@ -11,15 +11,30 @@
 
 .mobileHeader {
     background: rgb(22, 24, 29);
-    height: 70px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+    /* height: 70px;
+    padding: 10px; */
     position: fixed;
-    margin-bottom: 30px;
     width:100%;
 }
 
+.mobileHeader__buttons {
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 10px;
+}
+
+.link__mobileHeader{
+    color: white;
+    /* display: grid; 
+    grid-template-columns: 1fr; */
+    background: #414141;
+    max-width: 100%;
+}
+
+.disable {
+    display: none;
+}
 
 
 @media (min-width: 768px) {

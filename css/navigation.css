@@ -32,4 +32,6 @@
     border-bottom: solid 1px;
 }
 
-..navigation__mobileLink
+.navigation__mobileLink:hover {
+    background: #727272;
+}

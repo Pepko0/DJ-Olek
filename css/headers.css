@@ -23,6 +23,22 @@
     padding: 10px;
 }
 
+.button__container{
+    background-color: transparent;
+    border: none;
+}
+
+.button__mainHeader{
+    fill: none;
+    width: 40px;
+    color: #b08f53;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+ 
+}
+
 .link__mobileHeader{
     color: white;
     background: #4141417a;

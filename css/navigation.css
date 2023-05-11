@@ -31,12 +31,26 @@
 
 .navigation__mobileLink {
     color: white;
+    background:rgb(27, 27, 27) ;
     display: block;
     padding:10px;
     text-decoration: none;
-    border-top: solid #b08f53 1px;
+    /* border-top: solid #b08f53 1px; */
+}
+
+.navigation__mobileLink--second{
+    color: white;
+    background: #b08f53 ;
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    /* border-top: solid #b08f53 1px; */
 }
 
 .navigation__mobileLink:hover {
-    background: #7e7e7e;
+    background:rgb(43, 43, 43) ;
+}
+
+.navigation__mobileLink--second:hover{
+    background: #bd9a59 ;
 }

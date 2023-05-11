@@ -63,8 +63,8 @@
 .container__header{
     color:#b08f53;
     text-align: left;
-    text-decoration: underline;
     font-size: 30px;
+    border-bottom: 1px #b08f53 solid;
 }
 
 .container__header--center {
@@ -90,5 +90,12 @@
         grid-template-columns: 1fr;
     }
 
+    .container__header{
+        font-size: 25px;
+    }
 
+
+
+
+    
 }

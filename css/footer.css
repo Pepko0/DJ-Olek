@@ -72,4 +72,17 @@
         margin-left: 25%;
     }
 
+    .footer__contactHeaader {
+
+        font-size: 30px;
+
+    }
+
+    .footer__contactHeaader--smaller {
+        font-size:25px;
+    }
+
+    .footer__link--contact{
+        font-size: 20px;
+    }
 }
